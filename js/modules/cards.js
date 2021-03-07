@@ -42,7 +42,7 @@ function cards() {
         }
     }
 
-    getResource('http://localhost:3000/menu')
+    getResource('https://my-json-server.typicode.com/TheBreeng/Food_dist/menu')
         .then(data => {
             data.forEach(({
                 img,
